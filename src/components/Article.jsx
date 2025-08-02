@@ -14,7 +14,7 @@ function Article() {
                     <div className="py-4 space-y-4">
                         <h1 className="text-3xl text-white font-bold lg:text-3xl">iPad Pro</h1>
                         <h3 className="text-md text-white  lg:text-2xl mb-4">
-                            Unbeliveably thin. Incredibly powerful
+                            Unbeliveably thin.
                         </h3>
                         <div className="flex justify-center space-x-4">
                             <button className="py-2 px-4 bg-blue-600 text-xl text-white font-extrabold rounded-full">
@@ -78,7 +78,7 @@ function Article() {
                 <div className="bg-gray-100 p-4 text-center">
                     <div className="space-y-4 py-4">
                         <h1 className=" text-3xl text-black font-bold lg:text-3xl">Airpods</h1>
-                        <h3 className=' text-xl text-gray-600 font-semibold lg:text-2xl  mb-4'>Realistic Feeling</h3>
+                        <h3 className=' text-xl text-black lg:text-2xl  mb-4'>Realistic Feeling</h3>
                         <div className="flex justify-center space-x-4">
                             <button className="py-2 px-4 bg-blue-600 text-white font-extrabold rounded-full">
                                 Learn more
