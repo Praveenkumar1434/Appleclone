@@ -17,10 +17,10 @@ function Article() {
                             Unbeliveably thin.
                         </h3>
                         <div className="flex justify-center space-x-4">
-                            <button className="py-2 px-4 bg-blue-600 text-xl text-white font-extrabold rounded-full">
+                            <button className="py-2 px-4 bg-blue-600 text-white font-extrabold rounded-full">
                                 Learn more
                             </button>
-                            <button className="py-2 px-4 bg-gray-100 border text-xl border-blue-500 text-blue-600 font-extrabold rounded-full hover:bg-blue-500 hover:text-white">
+                            <button className="py-2 px-4 bg-gray-100 border border-blue-500 text-blue-600 font-extrabold rounded-full hover:bg-blue-500 hover:text-white">
                                 Buy
                             </button>
                         </div>
@@ -38,10 +38,10 @@ function Article() {
                         <h1 className=" text-3xl text-gray-600 font-bold lg:text-3xl">iWatch</h1>
                         <h3 className=' text-xl text-gray-600  lg:text-2xl  mb-4'>Thinstant classic</h3>
                         <div className="flex justify-center space-x-4">
-                            <button className="py-2 px-4 text-xl bg-blue-600 text-white font-extrabold rounded-full">
+                            <button className="py-2 px-4 bg-blue-600 text-white font-extrabold rounded-full">
                                 Learn more
                             </button>
-                            <button className="py-2 px-4 text-xl bg-gray-100 border border-blue-500 text-blue-600 font-extrabold rounded-full hover:bg-blue-500 hover:text-white">
+                            <button className="py-2 px-4 bg-gray-100 border border-blue-500 text-blue-600 font-extrabold rounded-full hover:bg-blue-500 hover:text-white">
                                 Buy
                             </button>
                         </div>
@@ -87,7 +87,7 @@ function Article() {
                                 Buy
                             </button>
                         </div>
-                        
+
                         <div className='flex items-center justify-center'>
                             <img src={airpod} alt="ipad" className='w-full object-contain h-64' />
                         </div>
@@ -106,11 +106,11 @@ function Article() {
                             <button className="py-2 px-4 bg-blue-600 text-white font-extrabold rounded-full">
                                 Learn more
                             </button>
-                            <button className="py-2 px-4 bg-black border border-blue-500 text-blue-600 font-extrabold rounded-full hover:bg-blue-500 hover:text-white">
+                            <button className="py-2 px-4 bg-gray-100 border border-blue-500 text-blue-600 font-extrabold rounded-full hover:bg-blue-500 hover:text-white">
                                 Buy
                             </button>
                         </div>
-                        
+
                         <div className="flex items-center justify-center">
                             <img src={macpro} alt="iPad" className="h-64 object-contain" />
                         </div>
@@ -131,7 +131,7 @@ function Article() {
                                 Buy
                             </button>
                         </div>
-                        
+
                         <div className='flex items-center justify-center'>
                             <img src={trade} alt="ipad" className='w-full object-contain h-64' />
                         </div>
