@@ -13,14 +13,14 @@ function Article() {
                 <div className="bg-black text-center p-4">
                     <div className="py-4 space-y-4">
                         <h1 className="text-3xl text-white font-bold lg:text-3xl">iPad Pro</h1>
-                        <h3 className="text-xl text-white  lg:text-2xl mb-4">
+                        <h3 className="text-md text-white  lg:text-2xl mb-4">
                             Unbeliveably thin. Incredibly powerful
                         </h3>
                         <div className="flex justify-center space-x-4">
-                            <button className="py-2 px-4 bg-blue-600 text-white font-extrabold rounded-full">
+                            <button className="py-2 px-4 bg-blue-600 text-xl text-white font-extrabold rounded-full">
                                 Learn more
                             </button>
-                            <button className="py-2 px-4 bg-gray-100 border border-blue-500 text-blue-600 font-extrabold rounded-full hover:bg-blue-500 hover:text-white">
+                            <button className="py-2 px-4 bg-gray-100 border text-xl border-blue-500 text-blue-600 font-extrabold rounded-full hover:bg-blue-500 hover:text-white">
                                 Buy
                             </button>
                         </div>
@@ -38,10 +38,10 @@ function Article() {
                         <h1 className=" text-3xl text-gray-600 font-bold lg:text-3xl">iWatch</h1>
                         <h3 className=' text-xl text-gray-600  lg:text-2xl  mb-4'>Thinstant classic</h3>
                         <div className="flex justify-center space-x-4">
-                            <button className="py-2 px-4 bg-blue-600 text-white font-extrabold rounded-full">
+                            <button className="py-2 px-4 text-xl bg-blue-600 text-white font-extrabold rounded-full">
                                 Learn more
                             </button>
-                            <button className="py-2 px-4 bg-gray-100 border border-blue-500 text-blue-600 font-extrabold rounded-full hover:bg-blue-500 hover:text-white">
+                            <button className="py-2 px-4 text-xl bg-gray-100 border border-blue-500 text-blue-600 font-extrabold rounded-full hover:bg-blue-500 hover:text-white">
                                 Buy
                             </button>
                         </div>
@@ -77,7 +77,7 @@ function Article() {
                 </div>
                 <div className="bg-gray-100 p-4 text-center">
                     <div className="space-y-4 py-4">
-                        <h1 className=" text-3xl text-gray-600 font-bold lg:text-3xl">Airpods</h1>
+                        <h1 className=" text-3xl text-black font-bold lg:text-3xl">Airpods</h1>
                         <h3 className=' text-xl text-gray-600 font-semibold lg:text-2xl  mb-4'>Realistic Feeling</h3>
                         <div className="flex justify-center space-x-4">
                             <button className="py-2 px-4 bg-blue-600 text-white font-extrabold rounded-full">
