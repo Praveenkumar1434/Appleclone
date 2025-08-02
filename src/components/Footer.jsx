@@ -8,7 +8,7 @@ import React from "react";
 function Footer() {
     return (
         <footer className="bg-[#f5f5f7] text-[#6e6e73] text-sm">
-            <div className="max-w-screen-xl mx-auto px-16 text-[12px] py-8 border-b border-[#d2d2d7]">
+            <div className="max-w-screen-xl mx-auto px-6 md:px-16 text-[12px] py-8 border-b border-[#d2d2d7]">
 
                 <p className="mb-4">◊No Cost EMI is available with the purchase of an eligible product made using qualifying cards on 3-, 6-, 9- or 12-month tenures from most leading card issuers. Eligible AirPods, HomePod and Beats products are available with No Cost EMI on 3- and 6-month tenures only. Monthly pricing is rounded to the nearest rupee. Exact pricing will be provided by your card issuer, subject to your card issuer’s terms and conditions. Minimum order spend applies as per your card issuer’s threshold. No Cost EMI is not available to business customers and cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Card eligibility is subject to terms and conditions between you and your card issuer. Offer may be revised or withdrawn at any time without any prior notice. <a href="#" className=" text-blue-500 hover:underline">Terms apply.</a></p>
                 <p className="mb-4">
@@ -56,7 +56,7 @@ function Footer() {
             </div>
 
 
-            <div className="max-w-screen-xl text-[12px] mx-auto px-16 py-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 text-[#1d1d1f]">
+            <div className="max-w-screen-xl text-[12px] mx-auto px-6 md:px-16 py-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 text-[#1d1d1f]">
 
                 <div>
                     <h3 className="font-semibold mb-2">Shop and Learn</h3>

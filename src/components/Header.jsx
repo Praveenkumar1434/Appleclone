@@ -1,6 +1,6 @@
 import vid from '../assets/Videos/iphonevideo.mp4'
 import iphone from '../assets/images/iPhone16max.png'
-import mac from '../assets/images/macbook.png'
+import mac from '../assets/images/Macbook1.png'
 
 function Header() {
     return (
@@ -15,8 +15,8 @@ function Header() {
 
             <div className="bg-gray-100 my-4 p-2 text-center">
                 <div className=" py-6 space-y-4">
-                    <h1 className=" text-2xl font-bold md:text-5xl">iPhone</h1>
-                    <h3 className=' text-xl font-semibold md:text-3xl text-gray-800 mb-4'>Meet the iPhone 16 family</h3>
+                    <h1 className=" text-4xl font-bold md:text-5xl">iPhone</h1>
+                    <h3 className=' text-xl  md:text-3xl text-gray-800 mb-4'>Meet the iPhone 16 family</h3>
                     <div className="flex justify-center space-x-4">
                         <button className="py-2 px-4 bg-blue-600 text-white font-extrabold rounded-full">
                             Learn more
@@ -25,7 +25,7 @@ function Header() {
                             Shop iPhone
                         </button>
                     </div>
-                    <p className="text-center text-2xl font-semibold bg-gradient-to-r from-[#007aff] via-[#af52de] via-50% to-[#ff3b30] bg-clip-text text-transparent">
+                    <p className="text-center text-md md:text-2xl font-semibold bg-gradient-to-r from-[#007aff] via-[#af52de] via-50% to-[#ff3b30] bg-clip-text text-transparent">
                         Built for Apple Intelligence.
                     </p>
                 </div>
@@ -36,8 +36,8 @@ function Header() {
 
             <div className="bg-[linear-gradient(to_bottom,_#D4EAF7,_#ffffff)] my-4 p-2 text-center">
                 <div className=" py-6 space-y-5">
-                    <h1 className=" text-2xl font-bold md:text-5xl">MacBook Air</h1>
-                    <h3 className=' text-xl font-semibold md:text-3xl text-gray-800 leading-relaxed'>
+                    <h1 className=" text-4xl font-bold md:text-5xl">MacBook Air</h1>
+                    <h3 className=' text-xl  md:text-3xl text-gray-800 leading-relaxed'>
                         Sky blue Color.<br />
                         Sky high performance with M4.
                     </h3>
@@ -51,9 +51,9 @@ function Header() {
                     </div>
                 </div>
                 <div className='flex items-center justify-center'>
-                    <img src={mac} alt="Macbook" className=' h-64 md:h-full' />
+                    <img src={mac} alt="Macbook" className=' h-64' />
                 </div>
-                <p className="text-center text-2xl font-semibold bg-gradient-to-r from-[#007aff] via-[#af52de] via-50% to-[#ff3b30] bg-clip-text text-transparent">
+                <p className="text-center text-md md:text-2xl font-semibold bg-gradient-to-r from-[#007aff] via-[#af52de] via-50% to-[#ff3b30] bg-clip-text text-transparent">
                     Built for Apple Intelligence.
                 </p>
             </div>
