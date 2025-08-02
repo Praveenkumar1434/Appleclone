@@ -8,7 +8,7 @@ function Article() {
     return (
         <>
 
-            <div className="container md:p-4 grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div className="container mt-10 md:p-4 grid grid-cols-1 lg:grid-cols-2 gap-6">
 
                 <div className="bg-black text-center p-4">
                     <div className="py-4 space-y-4">
